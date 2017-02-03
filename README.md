@@ -48,14 +48,10 @@ Look to the bootstrap.less file to add/remove components. By default, only the b
 Everything is written in [es6 standards](https://github.com/lukehoban/es6features) and pre-compiled with [babel](https://babeljs.io/)
 Framework of choice is [React](https://facebook.github.io/react/) with [Redux](https://github.com/rackt/redux)
 
-## Contributing
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
 
+## About the project
+This is a small project for learning Redux. This is a main page of a list of products and then you can add and remove them from wishlist. 
 ## Credits
 
 Dennis Tang, Cynthia Garcia, Rachel Mulvey, William Wu, Zahra Dargahi
