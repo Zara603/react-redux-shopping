@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>Project Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="build/style/bundle.css">
+  </head>
+  <body>
+
+    {{> header }}
+
+    <div class="Content container-fluid">
+      {{{body}}}
+    </div>
+
+    {{> footer }}
+
+    <script src="js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="js/vendor/jquery.sticky.js"></script>
+
+    <script type="text/javascript" src="build/js/page.bundle.js"></script>
+    <script type="text/javascript" src="build/js/bundle.js"></script>
+  </body>
+</html>
